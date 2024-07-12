@@ -24,8 +24,8 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/tjmovies07')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002045368735').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tarun234:tarun234@cluster0.v3n2umt.mongodb.net/?retryWrites=true&w=majority")
 
-DATABASE_NAME = environ.get('DATABASE_NAME', "Tj movies db")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Tj collection')
+DATABASE_NAME = environ.get('DATABASE_NAME', "Tj_movies_db")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Tj_collection')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002009145832'))
 QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/ccb9db43e62a2e524928e.jpg')
 START_IMG = environ.get('START_IMG', 'https://graph.org/file/4dad0cc16f190468454ee.jpg')
