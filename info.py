@@ -26,11 +26,11 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tarun234:tarun234@clus
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "Tj movies db")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Tj collection')
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002009145832')
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002009145832'))
 QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/ccb9db43e62a2e524928e.jpg')
 START_IMG = environ.get('START_IMG', 'https://graph.org/file/4dad0cc16f190468454ee.jpg')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002031180571'))
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002009145832')
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002009145832'))
 URL = environ.get('URL', 'mytestbot-jvdfhbj.com')
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600')
