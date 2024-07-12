@@ -19,7 +19,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '24963403').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/biisal")
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002009145832')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002009145832'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/tjmovies07')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002045368735').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tarun234:tarun234@cluster0.v3n2umt.mongodb.net/?retryWrites=true&w=majority")
@@ -55,7 +55,7 @@ REF_PREMIUM = 30
 PREMIUM_POINT = 1500
 auth_channel = environ.get('AUTH_CHANNEL', '-1001734959916')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002104815458')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002104815458'))
 request_channel = environ.get('REQUEST_CHANNEL', '1002047519334').split()
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
 UPI_PAY_LOGS = int(environ.get('UPI_PAY_LOGS', '-1008000054678')
